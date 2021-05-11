@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Boiler</title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="./assets/img/icon.png" />
+    <link rel="icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link href="./assets/css/main.css.map" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/pouchdb@7.2.1/dist/pouchdb.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="app_name">
+                <div class="word one">
+                    WEATHER
+
+                </div>
+                <div class="word two">
+                    ON
+
+                </div>
+                <div class="word three">
+                    MARS
+
+                </div>
+
+
+            </div>
+            <div class="current_time" id="time">
+
+
+            </div>
+        </div>
+        <div class="principal">
+            <div class="button_arrow">
+                <a href="saves.html">
+                    <button>
+                        <iconify-icon data-icon="akar-icons:arrow-right" style="color: white;" data-width="4rem"
+                            data-height="4rem"></iconify-icon>
+                    </button>
+
+                </a>
+
+            </div>
+            <div class="temperature" id="temperature">
+
+                <div class="max_min">
+                    <div class="temperature_text">
+                        Temperatura atmosférica
+                    </div>
+                    <div class="max" id="max">
+
+
+                    </div>
+                    <div class="min" id="min">
+
+
+                    </div>
+                </div>
+                <div class="icon">
+                    <span class="iconify" data-icon="fluent:weather-partly-cloudy-day-24-regular" data-inline="false"
+                        style="color: rgba(255, 97, 97, 1);" data-width="12rem" data-height="12rem"></span>
+                </div>
+
+
+            </div>
+            <div class="side_data">
+                <div class="surface" id="surface">
+                    <div class="surface_text">
+                        Temperatura superficial
+                    </div>
+
+
+
+                </div>
+                <div class="pressure" id="pressure">
+                    <div class="pressure_text">
+                        Presión atmosférica
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="save" id="savebtn">
+                <a href="#">Guardar medición actual</a>
+                
+
+            </div>
+            <div class="more">
+                <a href="more.html">Ver más contenido</a>
+                
+
+            </div>
+        </div>
+    </div>
+    <script src="./app/main.js"></script>
+    <!-- <script src="./app/save.js"></script> -->
+</body>
+
+</html>

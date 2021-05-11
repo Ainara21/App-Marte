@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Boiler</title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="./assets/img/icon.png" />
+    <link rel="icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link href="./assets/css/main.css.map" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/pouchdb@7.2.1/dist/pouchdb.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="main_more">
+        <div class="header_more">
+            <div class="back_arrow">
+                <a href="index.html"><iconify-icon data-icon="akar-icons:arrow-left" style="color: white;" data-width="4rem"
+                    data-height="4rem"></iconify-icon></a>
+                
+
+            </div>
+            <div class="actual_sun" >
+                <div class="sol"id="sol">
+                    
+                </div>
+                <div class="info">
+                    <span class="iconify" data-icon="bi:question-circle-fill" data-inline="false" style="color: white;" data-width="2rem" data-height="2rem"></span>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="main_info">
+            <div class="sun">
+                <div class="sunset">
+                    <div class="sunset_text">
+                        Hora de la puesta de sol
+
+                    </div>
+                    <div class="content sunset_data" id="sunset">
+              
+
+                    </div>
+
+                </div>
+                <div class="sunrise">
+                    <div class="sunrise_text">
+                        Hora de la salida del sol
+
+                    </div>
+                    <div class="content sunrise_data" id="sunrise">
+                      
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom_info">
+                <div class="position">
+                    <div class="position_text">
+                        Estación del año
+
+                    </div>
+                    <div class="position_data" id="positiondata">
+                        
+                    </div>
+
+                </div>
+                <div class="uv">
+                    <div class="uv_text">
+                        Radiación uv
+
+                    </div>
+                    <div class="uv_data" id="uvdata">
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="imagen">
+            <img src="/assets/img/orbit1.png" alt="">
+        </div>
+    </div>
+    <script src="./app/more.js"></script>
+    <!-- <script src="./app/main.js"></script> -->
+</body>
